@@ -15,7 +15,7 @@ new Typed("#typing", {
     strings: [
         "Investment Learner",
         "Business & Finance Enthusiast",
-        "Trail Runner",
+        "Runner & Sport Enthusias",
         "Future Business Professional"
     ],
     typeSpeed: 60,
