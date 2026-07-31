@@ -13,7 +13,7 @@ AOS.init({
 
 new Typed("#typing", {
     strings: [
-        "Investment Learner",
+        "Startup Builder",
         "Business & Finance Enthusiast",
         "Runner & Sport Enthusias",
         "Future Business Professional"
