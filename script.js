@@ -20,7 +20,7 @@ new Typed("#typing", {
     ],
     typeSpeed: 60,
     backSpeed: 40,
-    backDelay: 1800,
+    backDelay: 1850,
     loop: true
 });
 
