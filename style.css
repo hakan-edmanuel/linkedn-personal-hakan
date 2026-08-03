@@ -990,12 +990,12 @@ padding:90px 25px;
     padding:30px;
     border-radius: 15px;
     transition: 3s;
-    border: 1px solid rgba(255,255,255,08);
+    border: 1px solid rgba(255,255,255,.08);
 }
 
 .focus-card:hover{
     transform:translateY(-8px);
-    box-shadow:0 0 20px rgba(0,191,255,35);
+    box-shadow:0 0 20px rgba(0,191,255,.35);
 }
 
 .focus-card h3{
