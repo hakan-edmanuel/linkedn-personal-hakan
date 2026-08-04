@@ -986,7 +986,7 @@ padding:90px 25px;
 }
 
 .focus-card{
-    background: #4f5050;
+    background: #444545;
     color: #fff;
     padding:35px 25px;
     border-radius: 15px;
@@ -1012,7 +1012,7 @@ padding:90px 25px;
 }
 
 .focus-card span{
-    color: #5999da;
+    color: #b7babd;
     font-size: 15px;
     font-weight: 100;
 }
