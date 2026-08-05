@@ -1033,3 +1033,12 @@ padding:90px 25px;
     color: #0e0d0d;
     margin-top: 5px;
 }
+
+.footer {
+    text-align: center;
+    padding: 25px 20px;
+    margin-top: 80px;
+    border-top: 1px solid #ddd;
+    color: #919191;
+    font-size: 0.9rem;
+}
