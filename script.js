@@ -197,27 +197,3 @@ window.addEventListener("scroll", () => {
 });
 
 console.log("Portfolio Ready 🚀");
-
-function updateDateTime(){
-    const now = new Date();
-
-    const time = now.toLocaleTimeString("en-US",{
-        hour: "2-digit",
-        minute: "2-digit",
-        hour12:true
-    });
-    
-    const date = now.toLocaleDateString("en-US",{
-        weekday: "long",
-        month: "long",
-        day: "numeric",
-        year: "numeric",
-    });
-    
-    document.getElementById("clock").textContent = time;
-    document.getElementById("date").textContent = date;
-
-}
-
-updateDateTime();
-setInterval(updateDateTime, 1000);
