@@ -29,23 +29,22 @@ new Typed("#typing", {
 // ==========================
 
 const nav = document.querySelector("nav");
+const navToggle = document.querySelector(".nav-toggle");
+
+navToggle.addEventListener("click", () => {
+    const isOpen = nav.classList.toggle("open");
+    navToggle.setAttribute("aria-expanded", isOpen);
+    navToggle.innerHTML = isOpen
+        ? '<i class="fa-solid fa-xmark"></i>'
+        : '<i class="fa-solid fa-bars"></i>';
+});
+
+document.querySelectorAll(".nav-links a").forEach(link => {
+    link.addEventListener("click", () => nav.classList.remove("open"));
+});
 
 window.addEventListener("scroll", () => {
-
-    if (window.scrollY > 60) {
-
-        nav.style.padding = "14px 40px";
-        nav.style.boxShadow = "0 20px 40px rgba(0,0,0,.12)";
-        nav.style.background = "rgba(255,255,255,.85)";
-
-    } else {
-
-        nav.style.padding = "18px 45px";
-        nav.style.boxShadow = "0 10px 40px rgba(0,0,0,.08)";
-        nav.style.background = "rgba(255,255,255,.7)";
-
-    }
-
+    nav.classList.toggle("scrolled", window.scrollY > 60);
 });
 
 // ==========================
